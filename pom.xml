@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <genius.version>9.1.11</genius.version>
+        <genius.version>9.1.12</genius.version>
     </properties>
 
     <repositories>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>mylocal.genius</groupId>
             <artifactId>genius</artifactId>
-            <version>9.1.11</version>
+            <version>${genius.version}</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/genius-${genius.version}/genius-${genius.version}.jar</systemPath>
         </dependency>
